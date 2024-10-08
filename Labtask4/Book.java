@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 import java.util.Date;
 
 public class Book{
@@ -32,6 +33,11 @@ public class Book{
 
     public Date getFinishDate() {
         return finishDate;
+    }
+
+    public LocalDate getParsedDateRead() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'getParsedDateRead'");
     }
     
 }
